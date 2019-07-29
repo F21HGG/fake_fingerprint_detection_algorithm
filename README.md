@@ -6,7 +6,7 @@
 
 本文提出了一个基于卷积神经网络的指纹防伪算法，网络中的核心部分为三个Inception模块。本文所使用的训练数据来源于LivDet 2019，经过划分得训练集163840张，验证集16384张，测试集480张图像，其中真指纹与四种不同材料假指纹的图像比例为4：1：1：1：1。编程语言为Python，采用了Keras和TensorFlow深度学习框架，并且使用了Cuda框架和Cudnn库对训练进行了GPU加速。
 
-经过30次完整迭代，76800次权值更新训练得到的网络权值在测试集上进行了测试，结果为：总准确率96.875%，拒真率1.666%，认假率4.583%，损失为0.2455。在训练集上的准确率为99.91%，损失为0.0031，在验证集上准确率为99.98%，损失为0.0011。网络最优权值出现在第19次迭代结束。表明本文所提出的算法具备良好的准确率，同时拒真率与认假率也同时保持在一个较小的水平。
+经过30次完整迭代，76800次权值更新训练得到的网络权值在测试集上进行了测试，结果为：总准确率96.875%，拒真率1.666%，认假率4.583%，损失为0.2455。在训练集上的准确率为99.91%，损失为0.0031，在验证集上准确率为99.98%，损失为0.0011。网络最优权值出现在第19次迭代结束。表明本文所提出的算法具备良好的准确率，同时拒真率与认假率也同时保持在一个较小的水平。  
 **关键词**：假指纹检测，光学指纹，卷积神经网络，Inception
 
 ## 英文摘要  
@@ -14,7 +14,7 @@ Fingerprint recognition technology is a very popular and rapidly developing iden
 
 This thesis proposes a fingerprint anti-counterfeiting algorithm based on convolutional neural network. The core part of the network is three Inception modules. The training data used in this thesis is from LivDet 2019. The training set is 163840, the validation set is 16384, and the test set is 480 images. The ratio of live fingerprint to four different material fake fingerprints is 4:1:1:1:1. The programming language is Python, using the Keras and TensorFlow deep learning framework, and using the Cuda framework and the Cudnn library for GPU acceleration.
 
-After 30 complete iterations, the network weights obtained from 76800 weights updating training were tested on the test set. The results showed that the total accuracy rate was 96.875%, the false rejection rate(frr) was 1.666%, the false acceptance rate(far) was 4.583%, and the loss was 0.2455. The accuracy rate on the training set is 99.91%, the loss is 0.0031, the accuracy on the verification set is 99.98%, and the loss is 0.0011. The network optimal weight appears at the end of the 19th iteration. The experimental results are compared with the results of the LivDet 2019 competition algorithm. The results show that the proposed algorithm has good accuracy, while the false rejection rate(frr) and the false acceptance rate(far) are kept at a small level.
+After 30 complete iterations, the network weights obtained from 76800 weights updating training were tested on the test set. The results showed that the total accuracy rate was 96.875%, the false rejection rate(frr) was 1.666%, the false acceptance rate(far) was 4.583%, and the loss was 0.2455. The accuracy rate on the training set is 99.91%, the loss is 0.0031, the accuracy on the verification set is 99.98%, and the loss is 0.0011. The network optimal weight appears at the end of the 19th iteration. The experimental results are compared with the results of the LivDet 2019 competition algorithm. The results show that the proposed algorithm has good accuracy, while the false rejection rate(frr) and the false acceptance rate(far) are kept at a small level.  
 **Keywords**：fake fingerprint detection, optical fingerprint, convolutional neural network, Inception
 
 ## 简介
