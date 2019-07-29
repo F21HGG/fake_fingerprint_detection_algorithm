@@ -34,11 +34,11 @@ Anaconda是一个Python的开源包、环境管理器，也可以看作是一个
 
 * 开发环境
     * 电脑环境
-        1.电脑：华硕K550JX4200
-        2.操作系统：Windows8.1 中文版
-        3.CPU:Intel Core i5-4200H
-        4.GPU:Nvidia GTX950M
-        5.内存：8GB
+        1. 电脑：华硕K550JX4200
+        2. 操作系统：Windows8.1 中文版
+        3. CPU:Intel Core i5-4200H
+        4. GPU:Nvidia GTX950M
+        5. 内存：8GB
     * Python 环境
         1. Python IDE:PyCharm 2018.2.4x64
         2. Python:3.6
